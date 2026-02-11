@@ -32,7 +32,7 @@
 }
 .en-tete__title_metier{
     font-weight: bold;
-    margin-bottom: 5vw;
+    margin: 5vw 5vw;
     font-size: 4vw;
 }
 .en-tete__title_enseigne{
@@ -79,23 +79,9 @@
 .services{
     display: flex;
     flex-direction: column;
-    
-    margin: 2vw auto;
+    margin: auto;
     padding-top: 3vw;
 }
-
-.services__ongles{
-    display: flex;
-    margin: Auto ;
-    align-items: center;
-    box-shadow: 0 0 1vw #e99fb1;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
-    border-radius: 20px;
-    padding: 2vw;
-}
-
 .services__title{
     font-weight: bold;
     font-size: 4vw;
@@ -103,29 +89,71 @@
     margin-bottom: 3vw;
 
 }
-.services__ongles_title{
+.services__lambda{
+    display: flex;
+    margin: 3vw auto ;
+    align-items: center;
+    box-shadow: 0 0 1vw #e99fb1;
+    flex-direction: column;
+    width: 80vw;
+    border-radius: 20px;
+    padding: 3vw;
+}
+.services__lambda_title{
     font-weight: bold;
     font-size: 3vw;
     text-align: center;
     margin-bottom: 3vw;
 }
-.services__ongles_text{
+.services__lambda_text{
     width: 70vw;
     margin-bottom: 2vw;
+    font-size: 2vw;
     
 }
-.services__ongles_photos{
+.services__lambda_photos{
     text-align: center;
-}
-.photo{ 
-    margin: 2vw;  
-    border-radius: 10px; 
-    width: 70px; 
 }
 
             /***  Présentations des photos ***/
+
 .photo{
     box-shadow: 0 0 2vw #2e2027;
+    border-radius: 10px; 
+    width: 20vw; 
+    margin: 5vw;
+    left: -10vw;
+}
+.photo1{
+    transform: rotate(-20deg) translate(-3vw);
+    
+}
+.photo2{
+    transform: rotate(20deg) translate(1vw, 3vw);
+}
+.photo3{
+    transform: rotate(10deg) translate(-1vw);
+}
+.photo4{
+    transform: rotate(-10deg) translate(1vw, 3vw);
+}
+.photo5{
+    transform: rotate(0deg) translate(-3vw, -3vw);
+}
+.photo6{
+    transform: rotate(-20deg) translate(1vw, 3vw);
+}
+.photo7{
+    transform: rotate(-20deg) translate(-3vw);
+}
+.photo8{
+    transform: rotate(10deg) translate(1vw, -3vw);
+}
+.photo9{
+    transform: rotate(10deg) translate(-2vw, -2vw);   
+}
+.photo10{
+    transform: rotate(-10deg) translate(1vw, 3vw);
 }
 
 
@@ -160,16 +188,11 @@ footer{
 .button{
     border-radius: 20px;
 }
-.services__ongles{
+.services__lambda{
     width: 70vw;
 }
-.services__ongles_text{
+.services__lambda_text{
     width: 50vw;
-}
-.photo{ 
-    margin: 2vw;  
-    border-radius: 10px; 
-    width: 100px; 
 }
 }
  
@@ -182,9 +205,5 @@ footer{
     background-color: #FFF;
     width: 70vw;
     margin: auto; 
-}
-.photo{ 
-    margin: 2vw;  
-    width: 200px; 
 }
 }
