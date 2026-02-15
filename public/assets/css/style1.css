@@ -3,7 +3,7 @@ html{
 }
 
                     /********************************/             
-                    /***  screen  width <= 500px ***/
+                    /***  screen  width <= 310px ***/
 
 .container{ 
     width:100%; 
@@ -22,7 +22,7 @@ html{
 }
 .en-tete__logo{
     text-align: center;
-    margin-top: -3rem;
+    margin-top: -1.5rem;
 }
 .en-tete__logo_logo-img{
     width:30%;
@@ -39,17 +39,17 @@ html{
     width:100%;
 }
 .en-tete__title_metier{
-        margin: 1.5rem 2rem 2rem;
-        font-size: 2grem;
+        margin: 1rem auto 1.5rem;
+        font-size: 1.5rem;
     }
 .en-tete__title_enseigne{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;  
 }
 .en-tete__title_commune{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .en-tete__contact{
     display: flex;
@@ -59,8 +59,7 @@ html{
 }
 .button{
     display: flex;
-    padding: 1vw;
-    min-width: 12rem;
+    min-width: 0.8rem;
     background: #e4b8c3;
     border: 1px solid #FFF;
     border-radius: 10px;
@@ -69,12 +68,12 @@ html{
     align-items: center;
 }
 .en-tete__contact_icone{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     margin: 0.8rem;
 }
 .en-tete__contact-text{
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-weight: bold; 
     margin-right: 0.8rem;  
 }
@@ -167,8 +166,8 @@ html{
     padding: 0.3em;
 }
 .socialmedia-img{
-   width: 25px;
-   margin:  0.1em 2em;
+   width: 2rem;
+   margin:  0.1em 1.5em;
 }
 
                     /****************************************/
@@ -220,7 +219,7 @@ html{
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 3vw;
+    font-size: 0.5rem;
     transition: color 0.3s;
 }
 
@@ -246,47 +245,51 @@ html{
 }
 
                     /****************************************************/                   
-                    /*** Réduction taille des liens sur petits écrans ***/
+                                /*** Sreen width > 310 px ***/
 
-@media (max-width: 310px) {
-    .nav-links a{
-        font-size: 0.5rem;
-    } 
-    .button{
-        min-width: 0.8rem;
-    }
-    .en-tete__contact_icone{
-        width: 1rem;
-        height: 1rem;
-        margin: 0.8rem;
-    }
-    .en-tete__contact-text{
-        font-size: 0.8rem;
-        margin-right: 0.8rem; 
-    }
-    .socialmedia-img{
-        width: 2rem;
-        margin:  0.1em 1.5em;
+@media screen and (min-width: 310px) {
+    .en-tete__logo{
+        margin-top: -3rem;
     }
     .en-tete__title_metier{
-        margin: 1rem auto 1.5rem;
-        font-size: 1.5rem;
+        margin: 1.5rem 2rem 2rem;
+        font-size: 2rem;
     }
     .en-tete__title_enseigne{
-        font-size: 2rem;  
+        font-size: 3rem;  
     }
     .en-tete__title_commune{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
-    .en-tete__logo{
-        margin-top: -1.5rem;
+    .en-tete__contact_icone{
+        width: 1.5rem;
+        height: 1.5rem;
     }
+    .en-tete__contact-text{
+        font-size: 1.3rem; 
+    }
+    .button{
+        min-width: 1.2rem;
+    }
+    .socialmedia-img{
+        width: 2.5rem;
+        margin:  0.1em 2em;
+    }
+    .nav-links a{
+        font-size: 3vw;
+    } 
+    
+    
+    
+    
+    
+    
 }
 
                     /*****************************/
-                    /**  Screen width  > 580 px **/
+                    /**  Screen width  > 570 px **/
 
-@media screen and (width >= 570px){
+@media screen and (min-width: 570px){
     .container{
         background-color: #FFF;
         width: 70%;
@@ -368,7 +371,7 @@ html{
                     /*******************************/
                     /***  Screen width > 1000 px ***/
 
-@media screen and (width >= 1000px){
+@media screen and (min-width: 1000px){
     .container{
         background-color: #FFF;
         width: 70vw;
@@ -391,15 +394,15 @@ html{
     }
     .button{
         border-radius: 30px;
-        min-width: 30rem;
+        min-width: 20rem;
     }
     .en-tete__contact_icone{
-        width: 4rem;
-        height: 4rem;
-        margin: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+     
     }
     .en-tete__contact-text{
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: bold; 
         margin-right: 0.8rem;  
     }
