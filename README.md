@@ -1,2 +1,2 @@
-# Ypria
-Site pour l'activité de Junia
+# La belle Peinture
+Site pour l'activité de La belle Peinture
