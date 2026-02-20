@@ -82,6 +82,10 @@ html{
     margin-top: 2.5rem;
 }
 
+.en-tete__contact a{
+    padding-top: 0.2rem;
+}
+
 .button{ 
     display: flex;
     min-width: 0.8rem;
@@ -176,6 +180,11 @@ button:active {
     border-radius: 10px; 
     width: 35%; 
     margin: 20px 5%;  
+}
+
+.frame-map{
+    width: 100%;
+    height: 35rem;
 }
  
                     /*********************/
@@ -437,7 +446,7 @@ textarea {
     }
     .services__title{
         font-size: 3rem;
-        margin-bottom: 0 auto 3rem;
+        margin: 0 auto 3rem;
     }
     .services__lambda{
         width:100%;
